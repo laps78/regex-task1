@@ -12,4 +12,4 @@ test('Validate usernames', () => {
   expect(Validator.validateUsername('123456')).toBe(false);
   expect(Validator.validateUsername('-iusd98_-1')).toBe(false);
   expect(Validator.validateUsername(';dfHJJH.E')).toBe(false);
-})
+});
